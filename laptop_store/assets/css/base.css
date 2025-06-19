@@ -1,0 +1,36 @@
+:root {
+    /* primary */
+    --color-primary: #00a8ff80;
+    --color-button-primary: orange;
+    --color-text: black;
+    --color-hover-text: #00a5c6;
+}
+
+/* kích thước các khung */
+:root {
+    /* header */
+    --height-header_container: 100px;
+    --height-header_top: calc(var(--height-header_container) / 2);
+    --height-header_bottom: calc(var(--height-header_container) - var(--height-header_top));
+    --color-header_text: white;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+}
+.width-page_use {
+    width: 1200px;
+}
+.cursor_hover {
+    cursor: pointer;
+}
+
+.margin_title{
+    margin-top: 40px;
+}
