@@ -6,7 +6,7 @@
     $database = "laptop_store";
 
     // Kết nối đến MySQL với PHP sử dụng MySQLi
-    $conn = new mysqli($server, $username, $passwordroot, $database, 3307);
+    $conn = new mysqli($server, $username, $passwordroot, $database);
 
     // Kiểm tra kết nối
     if ($conn->connect_error) {
